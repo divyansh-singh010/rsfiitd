@@ -1,0 +1,38 @@
+.team-head {
+  color: var(--Colour-Main-Blue-900, #091133);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Medium 36 */
+  font-family: Roboto;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5rem;
+}
+.team-image-container {
+  margin: 0 10rem;
+  width: 30%;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 10rem;
+}
+.team-image-subcontainer {
+  height: 20rem;
+  width: 100%;
+  background: #e7ecff;
+}
+.team-image-name {
+  margin-top: 1.5rem;
+  color: var(--Colour-Main-Blue-900, #091133);
+  font-feature-settings: "clig" off, "liga" off;
+
+  /* Medium 36 */
+  font-family: Roboto;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3rem; /* 133.333% */
+}
