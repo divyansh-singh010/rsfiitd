@@ -1,0 +1,36 @@
+.navbar-container {
+    height: 60px;
+    width: 100%;
+    z-index: 1;
+  }
+  .navbar img {
+    position: absolute;
+    top: 1rem;
+    left: 2rem;
+  }
+  ul {
+    list-style-type: none;
+    margin: 1rem;
+    margin-left: 2rem;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    position: absolute;
+    right: 0;
+  }
+  ul a{
+    text-decoration: none;
+  }
+  ul a:visited{
+    color: var(--Colour-Main-Blue-500, #505f98);
+  }
+  li {
+    margin: 1.5rem;
+    color: var(--Colour-Main-Blue-500, #505f98);
+    font-feature-settings: "clig" off, "liga" off;
+    font-family: Roboto;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem; /* 120% */
+  }

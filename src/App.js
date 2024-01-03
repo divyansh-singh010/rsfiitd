@@ -3,7 +3,8 @@ import React from "react";
 import Home from "./pages/home/home";
 import Team from "./pages/team/team";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import Navbar from "./pages/navbar";
+import Navbar from "./pages/navbar/navbar";
+import Events from "./pages/events/events";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Navbar />
         <Routes>
           <Route path="/" exact element={<Home />} />
-          <Route path="/events" exact element={<Team />} />
+          {/* <Route path="/events" exact element={<Events />} /> */}
           <Route path="/team" exact element={<Team />} />
         </Routes>
         <div className="footer">

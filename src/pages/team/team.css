@@ -1,38 +1,61 @@
 .team-head {
-  color: var(--Colour-Main-Blue-900, #091133);
-  font-feature-settings: "clig" off, "liga" off;
-  /* Medium 36 */
-  font-family: Roboto;
-  font-size: 2.25rem;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 5rem;
+  color: #505f98;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Roboto;
+  font-size: 3.5rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.5rem; /* 34.286% */
+}
+.team-images {
+  margin: 0 5rem;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+}
+.new {
+  margin: auto;
+  width: 50% !important;
+  height: 50% !important;
 }
 .team-image-container {
-  margin: 0 10rem;
-  width: 30%;
+  margin: auto;
+  width: 50%;
   align-items: center;
   text-align: center;
-  margin-bottom: 10rem;
+  margin-bottom: 5rem;
+}
+.team-image-container svg {
+  position: absolute;
+  top: -0.5rem;
+  left: 0;
+  width: 100%;
+  z-index: -1;
+  height: 5rem;
 }
 .team-image-subcontainer {
   height: 20rem;
   width: 100%;
   background: #e7ecff;
 }
+.team-image-subcontainer img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
 .team-image-name {
   margin-top: 1.5rem;
   color: var(--Colour-Main-Blue-900, #091133);
   font-feature-settings: "clig" off, "liga" off;
-
+  position: relative;
   /* Medium 36 */
   font-family: Roboto;
   font-size: 1.5rem;
   font-style: normal;
   font-weight: 500;
-  line-height: 3rem; /* 133.333% */
+  line-height: 2rem; /* 133.333% */
 }
