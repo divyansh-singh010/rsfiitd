@@ -3,9 +3,9 @@ import "./team.css";
 import first from "../../images/first.jpg";
 import second from "../../images/second.jpg";
 import third from "../../images/third.jpg";
-import fourth from "../../images/fourth.jpg";
 import fifth from "../../images/fifth.jpg";
 import sixth from "../../images/sixth.jpg";
+import jyoti from "../../images/jyoti.jpg";
 
 const Team = () => {
   return (
@@ -13,7 +13,7 @@ const Team = () => {
       <div className="team-head">MEET OUR TEAM</div>
       <div className="team-image-container">
         <div className="team-image-subcontainer new">
-          <img src={third} alt="third" />
+          <img src={jyoti} alt="third" />
         </div>
         <div className="team-image-name">
           <svg
@@ -51,7 +51,7 @@ const Team = () => {
                 fill="#CFD9FF"
               />
             </svg>
-            Siddharth,<br></br>Founder
+            Hitesh Gupta<br></br>Executive
           </div>
         </div>
         <div className="team-image-container">
@@ -72,7 +72,7 @@ const Team = () => {
                 fill="#CFD9FF"
               />
             </svg>
-            Ankit,<br></br>Co-Founder
+            Abhilash Dasari<br></br>Executive
           </div>
         </div>
         <div className="team-image-container">
@@ -93,12 +93,12 @@ const Team = () => {
                 fill="#CFD9FF"
               />
             </svg>
-            Jyoti,<br></br>Co-Founder
+            Dushyant Soni<br></br>Executive
           </div>
         </div>
         <div className="team-image-container">
           <div className="team-image-subcontainer">
-            <img src={fourth} alt="fourth" />
+            <img src={fifth} alt="fourth" />
           </div>
           <div className="team-image-name">
             <svg
@@ -114,7 +114,7 @@ const Team = () => {
                 fill="#CFD9FF"
               />
             </svg>
-            Ankit,<br></br>Co-Founder
+            Shivam Singh<br></br>Executive
           </div>
         </div>
         <div className="team-image-container">
@@ -135,7 +135,7 @@ const Team = () => {
                 fill="#CFD9FF"
               />
             </svg>
-            Ankit,<br></br>Co-Founder
+            Ankana Das<br></br>Executive
           </div>
         </div>
       </div>
