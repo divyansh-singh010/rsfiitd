@@ -4,7 +4,6 @@ import Home from "./pages/home/home";
 import Team from "./pages/team/team";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./pages/navbar/navbar";
-import Events from "./pages/events/events";
 
 function App() {
   return (
