@@ -1,9 +1,22 @@
 import React from "react";
 import "./home.css";
 import homeImg from "../../images/home.png";
-import eventImg from "../../images/event.png";
+import Carousel from "../../components/carousel/carousel";
+import firstevent from "../../images/firstevent.png";
+import secondevent from "../../images/secondevent.png";
+import { Link } from "react-router-dom";
 
 const Home = () => {
+  const items = [
+    {
+      image: firstevent,
+      text: "Discover the brilliance of Ph.D. students at IIT Delhi as they masterfully demonstrated their research prowess at the 'Research Blitz' event. Without the aid of slides, these students showcased concise and engaging pitches, refining complex ideas for diverse audiences. The event, organized by the Research Scholar Forum and Academic Outreach, celebrated the art of effective verbal communication in research presentation.",
+    },
+    {
+      image: secondevent,
+      text: "Join us on a journey of exploration as Dr. Mayra Castro shares profound insights into the world of publishing as a viable career path for Ph.D. graduates. In a captivating talk, Dr. Castro delves into various opportunities and challenges within the publishing industry, offering valuable perspectives on roles, skills, and the evolving landscape. This session empowers Ph.D. graduates to consider the enriching possibilities of contributing to scholarly publications and shaping the future of academic discourse.",
+    },
+  ];
   return (
     <>
       <div className="home">
@@ -902,29 +915,11 @@ const Home = () => {
           </div>
           <img src={homeImg} alt="home" className="home-content-img" />
         </div>
-        <div className="home-events">
-          <div className="home-events-head">Our Events</div>
-          <div className="home-events-container">
-            <div className="home-events-card">
-              <img
-                src={eventImg}
-                alt="event"
-                className="home-events-card-img"
-              />
-              <div className="home-events-card-text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                vitae sapien vel dui ultricies aliquet. Sed vitae sapien vel dui
-                ultricies aliquet.Lorem ipsum dolor sit amet, consectetur
-                adipiscing elit. Sed vitae sapien vel dui ultricies aliquet. Sed
-                vitae sapien vel dui ultricies aliquet. Lorem ipsum dolor sit
-                amet, consectetur adipiscing elit. Sed vitae sapien vel dui
-                ultricies aliquet. Sed vitae sapien vel dui ultricies aliquet.
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                vitae sapien vel dui ultricies aliquet. Sed vitae sapien vel dui
-                ultricies aliquet.
-              </div>
-            </div>
-          </div>
+        <Carousel items={items} timeout={3000} />
+        <div className="container-button">
+          <Link to="/events">
+            <button className="button">Know more!!</button>
+          </Link>
         </div>
         <div className="home-contact">
           <svg

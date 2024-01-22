@@ -11,3 +11,29 @@
   justify-content: center;
   align-items: center;
 }
+.events-object-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+.events-object-image {
+  width: 40%;
+}
+.events-object {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0rem 7.5rem;
+}
+.events-object-info {
+  position: relative;
+  height: 20rem;
+  margin: 2.5rem;
+  width: 60%;
+  align-items: top;
+}
+.events-object-info-name {
+  font-size: calc(1.5rem + 0.5vw);
+  font-weight: 600;
+  margin-bottom: 2.5rem;
+}

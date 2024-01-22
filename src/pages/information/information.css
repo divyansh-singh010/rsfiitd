@@ -1,0 +1,54 @@
+.table-container {
+  margin: 20px;
+}
+
+.travel-grant-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.travel-grant-table th,
+.travel-grant-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+.travel-grant-table th {
+  background-color: #f2f2f2;
+}
+.table-container {
+  margin: 20px;
+}
+
+.travel-grant-table {
+  width: auto;
+  border-collapse: collapse;
+  margin: 0 2.5rem;
+}
+
+.travel-grant-table th,
+.travel-grant-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+.container-head {
+  width: 75%;
+  text-align: center;
+  margin: 2.5rem;
+  margin-bottom: 0rem;
+  font-size: 2rem;
+  color: #434f7e;
+}
+.travel-grant-table th {
+  background-color: #f2f2f2;
+}
+
+/* Apply styles to the website link cell */
+.travel-grant-table td a {
+  display: block;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  max-width: 150px; /* Set the maximum width as needed */
+}

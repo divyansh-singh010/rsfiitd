@@ -63,40 +63,23 @@
   top: 0;
   right: -3rem;
 }
-.home-events {
-  margin: 5rem;
+.home-contact {
+  position: relative;
 }
-.home-events-head {
-  color: var(--Colour-Main-Blue-900, #091133);
-  font-feature-settings: "clig" off, "liga" off;
-  /* Medium 36 */
-  font-family: Roboto;
-  font-size: 2.25rem;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 3rem;
+.container-button {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.home-events-card-img {
-  width: 100%;
-  margin: 2.5rem 0;
-  height: 100%;
-}
-.home-events-card-text {
-  color: var(--Colour-Main-Blue-400, #6f7cb2);
-  font-feature-settings: "clig" off, "liga" off;
-
-  /* Regular 16 */
-  font-family: Roboto;
+.button {
+  background-color: #434f7e;
+  color: #fff;
+  border: solid 1px #fff;
+  border-radius: 1rem;
+  padding: 1rem 3rem;
   font-size: 1rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 1.625rem; /* 162.5% */
-}
-.home-contact {
-  position: relative;
+  text-transform: uppercase;
+  cursor: pointer;
 }
 .home-contact-head {
   color: var(--Colour-Main-Blue-900, #091133);
@@ -123,12 +106,12 @@
   font-weight: 400;
   line-height: 1rem; /* 162.5% */
 }
-.home-contact-container{
-    position: absolute;
-    top: 10rem;
-    left: 0;
-    right: 0;
+.home-contact-container {
+  position: absolute;
+  top: 10rem;
+  left: 0;
+  right: 0;
 }
-.home-contact svg{
-    width: 100%;
+.home-contact svg {
+  width: 100%;
 }

@@ -1,0 +1,31 @@
+.home-events {
+  margin: 5rem;
+}
+.home-events-head {
+  color: var(--Colour-Main-Blue-900, #091133);
+  font-feature-settings: "clig" off, "liga" off;
+  /* Medium 36 */
+  font-family: Roboto;
+  font-size: 2.25rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-events-card-img {
+  width: 100%;
+  margin: 2.5rem 0;
+  height: 50rem;
+}
+.home-events-card-text {
+  color: var(--Colour-Main-Blue-400, #6f7cb2);
+  font-feature-settings: "clig" off, "liga" off;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem;
+}
